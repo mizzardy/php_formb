@@ -17,7 +17,7 @@ class App(Frame):
     def accept_url(self):
         self.password = self.get_url.get()
         brute_url(self.password)
-        generate_login("lucas.txt")
+        generate_login("data.txt")
         post_data()
 
 new_app = App()
